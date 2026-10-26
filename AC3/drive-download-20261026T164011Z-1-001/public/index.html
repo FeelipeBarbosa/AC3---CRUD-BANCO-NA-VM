@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CRUD</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Cadastro de Alunos</h1>
+
+<form id="form">
+<input type="hidden" id="id">
+<input type="text" id="nome" placeholder="Nome" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="text" id="curso" placeholder="Curso" required>
+<button>Salvar</button>
+</form>
+
+<table>
+<thead>
+<tr><th>ID</th><th>Nome</th><th>Email</th><th>Curso</th><th>Ações</th></tr>
+</thead>
+<tbody id="lista"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
